@@ -6,3 +6,7 @@ function calc(x){
     const output=document.getElementById('output');
     output.value=output.value+x;
 }
+function equal(){
+    const output=document.getElementById('output');
+    output.value=eval(output.value);
+}
